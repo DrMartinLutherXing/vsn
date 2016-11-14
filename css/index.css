@@ -1,0 +1,11 @@
+.cam-container {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 20px;
+}
+
+#analysis {
+	max-height: 245px;
+	max-width: 545px;
+	overflow-y: scroll;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+		<!-- styles -->
+		<link rel="stylesheet" href="css/index.css" />
+
+		<!-- head scripts -->
+		<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="js/init.js"></script>
+		<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+	</head>
+	<body>
+
+		<div class="cam-container">
+			<h2>320x240</h2>
+			<div id="my_camera"></div>
+			<form>
+				<input id="snapshot" type="button" value="Take Snapshot">
+			</form>
+		</div>
+		<div class="cam-container">
+			<div id="results">Your captured image will appear here...</div>
+			<form>
+				<input id="analyze" type="button" value="Analyze Snapshot">
+			</form>
+		</div>
+		<div class="cam-container">
+			<h2>Your image analysis will appear here...</h2>
+			<div id="analysis"></div>
+		</div>
+
+		<!-- foot scripts -->
+		<script src="js/lib/webcam.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
