@@ -1,5 +1,5 @@
 # Vision API Demonstration
-# *with webcam.js*
+### *with webcam.js*
 ---
 
 ## Description
@@ -14,7 +14,9 @@ It's that easy!
 ## Setup
 You will need an API Key to run the api request. This key will need to be placed in a file `keys.js` within the js directory.
 The `keys.js` file should be of the form:  
-`{  "key": "API KEY"  }`  
+`{
+"key": "API KEY"
+}`  
 You'll have to get this "API KEY" from me (I generated a couple, but didn't want to leave them sitting in git).
 
 ## Support
